@@ -1,0 +1,32 @@
+# Environment variables (Sensitive)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+
+# Media Files (Don't commit your music collection)
+*.mp3
+*.m4a
+*.webm
+Music/
+Downloads/
+
+# Logs
+*.log
+
+# IDEs
+.idea/
+.vscode/
+.project
+.pydevproject
+
+# System files
+.DS_Store
+Thumbs.db

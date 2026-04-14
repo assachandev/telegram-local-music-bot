@@ -104,6 +104,28 @@ http://your-server-ip:8000
 
 ---
 
+## 🔒 Remote Access with Tailscale
+
+By default, the stream is only accessible on your local network. To listen from anywhere, use [Tailscale](https://tailscale.com) — a zero-config VPN that connects your devices privately.
+
+**1. Install Tailscale on your server**
+```bash
+curl -fsSL https://tailscale.com/install.sh | sh
+sudo tailscale up
+```
+
+**2. Install Tailscale on your phone/device**
+Download from [tailscale.com/download](https://tailscale.com/download) and sign in with the same account.
+
+**3. Use your Tailscale IP for the stream**
+```
+http://100.x.x.x:8000
+```
+
+Your music is now accessible from anywhere — without exposing any ports to the public internet.
+
+---
+
 ## 🎵 How It Works
 
 ```

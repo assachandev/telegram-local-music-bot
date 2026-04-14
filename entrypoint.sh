@@ -10,5 +10,6 @@ sleep 2
 
 mpc update --wait 2>/dev/null || true
 mpc repeat on
+mpc single off
 
 exec python bot.py
